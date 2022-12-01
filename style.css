@@ -1,0 +1,125 @@
+body{
+	background-color: #000;
+	transition: background-color .5s;
+    background-image: ;
+	
+	
+}* { color:#fff; text-decoration: none;}
+  
+#header{
+	font-size: 25px; /* 25px */
+	text-align: center;
+	margin-top: 50px;
+	margin-right: 50px;
+    font-family: arial black, sans-serif;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+  
+#handle{
+    text-align: center;
+    font-family: arial black, sans-serif;
+    margin: 0;
+    font-size: 2vw;
+}
+
+#end-card{
+    text-align: center;
+    font-family: arial black, sans-serif;
+    font-size: 1vw;
+}
+
+#end-heart{
+    text-align: center;
+    font-family: arial black, sans-serif;
+    color: red;
+    font-size: 1vw;
+}
+
+#header-img{
+    /* width: 10%;  150px */
+    max-width: 10%;
+    border-radius: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bg-img{
+    opacity: 50%;
+}
+
+
+/* Link buttons */
+
+.button{
+    background-color: #2f2f2f; /* <-- gray */                       /*#f44336;  Red */
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    padding: 2% 20%; /* 15px 50px */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2vw;
+    margin: 4px 2px
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 50%;
+    font-family: arial black, sans-serif;
+}
+
+.button:hover {
+    background-color: #4f4f4f;                                   /*#8b0000;  Maroon */
+    color: white;
+  }
+
+div.container{
+    text-align: center;
+}
+
+.container { 
+    position: relative;
+  }
+  
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    padding: 14px 40px;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+ul.list{
+    display: inline-block;
+    text-align: center;
+}
+
+li{
+    
+    margin: 5px;
+}
+
+  /* End Link Buttons */
+  
+
+  /* Responsive */
+  @media screen and (max-width: 800px){
+    .left, .main, .right{
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+  @media all and (max-width: 479px) {
+    ul.btn-group {
+    display: block;
+    }
+    ul.btn-group li {
+    display: block;
+    }
+}

@@ -1,13 +1,27 @@
 html{
     font-size:100%;
 }
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 body{
 	background-color: #000;
 	transition: background-color .5s;
     background-image: ;
 	
 	
-}* { color:#fff; text-decoration: none;}
+}
+
+div{
+    flex-basis: 100%;
+    margin-bottom: .5rem;
+}
+
+* { color:#fff; text-decoration: none;}
   
 #header{
 	font-size: 25px; /* 25px */
@@ -112,17 +126,18 @@ li{
   
 
   /* Responsive */
-  @media screen and (max-width: 800px){
-    .left, .main, .right{
-        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+@media (min-width: 600px){
+    main{
+        flex-wrap: nowrap;
     }
-  }
+    
+    div{
+        flex-basis: 33%;
+    }
+}
 
-  @media all and (max-width: 479px) {
-    ul.btn-group {
-    display: block;
-    }
-    ul.btn-group li {
-    display: block;
+@media screen and (max-width: 500px){
+    #header-img{
+        width: 50%;
     }
 }

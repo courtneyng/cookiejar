@@ -168,9 +168,9 @@ li{
     }
 
     .button{
-        font-size: 2vw;
+        font-size: 4vw;
         border-radius: 5px;
-        /*5% 50%*/
+        padding:5% 20%;
         width: 50%;
     }
     

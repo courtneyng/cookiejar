@@ -12,8 +12,6 @@ body{
 	background-color: #000;
 	transition: background-color .5s;
     background-image: ;
-	
-	
 }
 
 div{
@@ -53,9 +51,9 @@ div{
     font-size: 1vw;
 }
 
-#header-img{
+.header-img{
     /* width: 10%;  150px */
-    max-width: 10%;
+    width: 10%;
     border-radius: 50%;
     display:block;
     margin-left: auto;
@@ -83,8 +81,8 @@ div{
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    width: 50%;
     font-family: arial black, sans-serif;
+    width: 50%;
 }
 
 .button:hover {
@@ -97,28 +95,24 @@ div.container{
 }
 
 .container { 
-    position: relative;
+    position: relative; 
   }
-  
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 ul{
-    padding: 14px 40px;
+    /*padding: 14px 40px;*/
     width: 50%;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 ul.list{
     display: inline-block;
     text-align: center;
+    width: 100%;
 }
 
 li{
-    
     margin: 5px;
 }
 
@@ -137,7 +131,38 @@ li{
 }
 
 @media screen and (max-width: 500px){
-    #header-img{
+    .header-img{
+        width: 30%;
+    }
+
+    #handle{
+        text-align: center;
+        font-family: arial black, sans-serif;
+        margin: 0;
+        font-size: 3vw;
+    }
+
+    ul.list{
+        
+    }
+
+    .button{
+        font-size: 2vw;
+        border-radius: 5px;
+        /*5% 50%*/
         width: 50%;
+    }
+    
+    #end-card{
+        text-align: center;
+        font-family: arial black, sans-serif;
+        font-size: 2vw;
+    }
+    
+    #end-heart{
+        text-align: center;
+        font-family: arial black, sans-serif;
+        color: red;
+        font-size: 2vw;
     }
 }

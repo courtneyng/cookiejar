@@ -1,5 +1,5 @@
 # Cookie Jar
-## Personal Linktree made from basic HTML & CSS
+Personal Linktree made from basic HTML & CSS
 
 ## Photo Credits
 Header Image Photo by Russa444 on Picrew or https://twitter.com/russa095

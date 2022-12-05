@@ -138,6 +138,19 @@ li{
 }
 
   /* End Link Buttons */
+
+  /* Socials */
+.socials{
+    position: relative;
+    text-align: center
+}
+
+.socials img{
+    width: 3%;
+    padding: 3px;
+}
+
+  /* End Socials*/
   
 
   /* Responsive */
@@ -173,6 +186,10 @@ li{
         padding:5% 20%;
         width: 50%;
         font-weight: bold;
+    }
+
+    .socials img{
+        width: 10%;
     }
     
     #end-card{

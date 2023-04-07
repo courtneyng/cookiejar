@@ -7,7 +7,6 @@ html {
 html::before{
     content: "";
     background-image: url('img_assets/bg.jpg');
-    background-repeat: repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
